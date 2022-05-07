@@ -1,0 +1,39 @@
+.nav {
+  height: 50px;
+  background-color: rgb(33, 60, 70);
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.6rem;
+}
+
+.navMenu {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.menuItem {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(251, 251, 251);
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+  border-bottom: 2px solid steelblue;
+}
